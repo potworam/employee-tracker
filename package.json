@@ -1,29 +1,28 @@
 {
-  "name": "employee-tracker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "db.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "node db.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/potworam/employee-tracker.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/potworam/employee-tracker/issues"
-  },
-  "homepage": "https://github.com/potworam/employee-tracker#readme",
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "mysql2": "^2.3.3"
-  }
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jnordan132/Employee-Tracker.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jnordan132/Employee-Tracker/issues"
+    },
+    "homepage": "https://github.com/jnordan132/Employee-Tracker#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "dotenv": "^10.0.0",
+        "figlet": "^1.5.2",
+        "inquirer": "^8.1.2",
+        "mysql2": "^2.3.0"
+    }
 }
